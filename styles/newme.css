@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
   font-family: "Work Sans", sans-serif;
 }
 /* banner section styles */
@@ -9,7 +8,6 @@
   background-size: cover;
   height: 808px;
   width: 100%;
-  /* position: relative; */
 }
 .banner-title {
   font-weight: 700;
@@ -37,7 +35,7 @@
   font-size: 20px;
   margin: 32px 230px 166px 1130px;
 }
-/* My-failure section styles */
+/* Failure section styles */
 .failure-section {
   display: flex;
   max-width: 1072px;
@@ -65,7 +63,7 @@
   color: #444343;
   margin-left: 105px;
 }
-/* plan section styles */
+/* Plan section styles */
 .plan {
   margin: 130px 230px;
 }
@@ -79,14 +77,15 @@
   display: flex;
   justify-content: space-around;
 }
-#web{
-padding-left: 95px;
+#web {
+  padding-left: 95px;
 }
-#java{
-padding-left: 45px;
+#java {
+  padding-left: 45px;
 }
-#smoke, #eco{
-padding-left: 50px;
+#smoke,
+#eco {
+  padding-left: 50px;
 }
 .info-title {
   text-align: center;
@@ -127,9 +126,8 @@ padding-left: 50px;
 }
 /* footer styles */
 .footer {
-  display: flex; 
+  display: flex;
   background-color: #151414;
-
 }
 .footer-title {
   color: #f8f8f8;
@@ -144,35 +142,33 @@ padding-left: 50px;
   padding: 0 0 24px 230px;
   line-height: 26px;
 }
-.footer-info{
-  color: #FFFFFF;
+.footer-info {
+  color: #ffffff;
   font-weight: 400;
-font-size: 16px;
-padding: 0 0 32px 230px;
-line-height: 16px;
+  font-size: 16px;
+  padding: 0 0 32px 230px;
+  line-height: 16px;
 }
-.footer-img{
+.footer-img {
   padding: 0 0 130px 230px;
 }
-.footer-form{
+.footer-form {
   padding: 150px 230px 243px 300px;
-
 }
-.form-title{
+.form-title {
   padding-bottom: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 600;
-font-size: 25px;
-
+  font-size: 25px;
 }
-input{
+input {
   width: 325px;
-height: 64px;
-background-color: #151414;
-border-radius: 5px;
-border-color: #ffffff;
+  height: 64px;
+  background-color: #151414;
+  border-radius: 5px;
+  border-color: #ffffff;
 }
-.footer-form .btn-secondary{
+.footer-form .btn-secondary {
   margin-top: 16px;
   margin-left: 0;
 }
