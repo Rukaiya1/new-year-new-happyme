@@ -63,8 +63,7 @@
 }
 .failure-list {
   color: #444343;
-  margin-left: 90px;
-  margin-bottom: 8px;
+  margin-left: 105px;
 }
 /* plan section styles */
 .plan {
@@ -74,20 +73,26 @@
   font-weight: 700;
   font-size: 50px;
   text-align: center;
-  margin-bottom: 55px;
+  padding-bottom: 60px;
 }
 .plan-info-container {
   display: flex;
   justify-content: space-around;
 }
-.plan-info-container img {
-  margin-left: 80px;
+#web{
+padding-left: 95px;
+}
+#java{
+padding-left: 45px;
+}
+#smoke, #eco{
+padding-left: 50px;
 }
 .info-title {
   text-align: center;
   font-weight: 700;
   font-size: 30px;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 16px;
 }
 .info-description {
@@ -122,34 +127,52 @@
 }
 /* footer styles */
 .footer {
+  display: flex; 
   background-color: #151414;
+
 }
 .footer-title {
   color: #f8f8f8;
   font-weight: 700;
   font-size: 45px;
-  padding: 130px 1222px 24px 230px;
+  padding: 130px 0 24px 230px;
 }
 .footer-description {
   color: #ffffff;
   font-weight: 400;
   font-size: 16px;
-  padding: 0 800px 24px 230px;
+  padding: 0 0 24px 230px;
   line-height: 26px;
 }
 .footer-info{
   color: #FFFFFF;
   font-weight: 400;
 font-size: 16px;
-padding: 0 1100px 32px 230px;
+padding: 0 0 32px 230px;
 line-height: 16px;
 }
 .footer-img{
-  display: inline-block;
-  /* margin-right: 200px; */
-  padding: 0 1000px 130px 230px;
+  padding: 0 0 130px 230px;
 }
 .footer-form{
-  text-align: right;
-  padding: 130px 230px 243px 1046px;
+  padding: 150px 230px 243px 300px;
+
+}
+.form-title{
+  padding-bottom: 30px;
+  color: #FFFFFF;
+  font-weight: 600;
+font-size: 25px;
+
+}
+input{
+  width: 325px;
+height: 64px;
+background-color: #151414;
+border-radius: 5px;
+border-color: #ffffff;
+}
+.footer-form .btn-secondary{
+  margin-top: 16px;
+  margin-left: 0;
 }
